@@ -1,41 +1,43 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php include 'include/header.php' ?>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Statement</title>
+</head>
+<body>
 
-$title  = 'Ifstatement';
-include 'include/header.php'
+<h2> If Statements </h2>
 
-?>
-
-<h3 style="color: red"></h3>
-
-<?php 
-
-$grade =80;
-
-echo '<h2>  If Statement </h2>';
-
-if($grade >= 50)  {
-        echo '<h3 style="color: green"> You have Passed</h3>';
-
-}
-else {
-    echo '<h3 style="color: red"> You have Failed</h3>';
-
-}
-$grade = 'A';
-//if-Else If-Else 
-
-if($grade == 'A'){
-    echo '<h2> You are a Superstar!</h2>';
-}
-elseif ($grade == 'B'){
-    echo '<h2> You did well!</h2>';
-}
-else{
-    echo '<h2> You have failed....</h2>';
-}
-
-
-
-?>
     
-    <?php require 'include/footer.php'?>
+</body>
+
+
+
+<?php
+$age = 24;
+
+
+
+if (21 >= $age)
+{
+
+    echo "<h4>Congrats! you met the minimum age requirement</h4>";
+  
+ 
+}
+else 
+{
+   
+ echo "<h4 class = 'text-danger' > you do not meet the age requirement </h4>";
+
+}
+$age = '';
+
+
+
+?>
+<?php require 'include/footer.php' ?>
+</html>
