@@ -1,41 +1,29 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+    <title>PHP Primer - <?php echo $title ?> </title>
+</head>
+<body>
 
-$title  = 'Ifstatement';
-include 'include/header.php'
+    <div class =" container" > 
+            <h2>Follow each link to the page example</h2> 
+    <ul class="nav">
 
-?>
-
-<h3 style="color: red"></h3>
-
-<?php 
-
-$grade =80;
-
-echo '<h2>  If Statement </h2>';
-
-if($grade >= 50)  {
-        echo '<h3 style="color: green"> You have Passed</h3>';
-
-}
-else {
-    echo '<h3 style="color: red"> You have Failed</h3>';
-
-}
-$grade = 'A';
-//if-Else If-Else 
-
-if($grade == 'A'){
-    echo '<h2> You are a Superstar!</h2>';
-}
-elseif ($grade == 'B'){
-    echo '<h2> You did well!</h2>';
-}
-else{
-    echo '<h2> You have failed....</h2>';
-}
-
-
-
-?>
+        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="array.php">Simple Array and Printout</a></li>
+        <li class="nav-item"><a class="nav-link" href="forloop.php">Simple For Loop</a></li>
+        <li class="nav-item"><a class="nav-link"  href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
+        <li class="nav-item"><a class="nav-link" href="ifstatement.php">Simple If Statement</a></li>
+        <li class="nav-item"><a class="nav-link" href="switchstatement.php">Simple Switch Statement</a></li>
+        <li class="nav-item"><a class="nav-link" href="stingmanip.php">Simple Sting Manipulation</a></li>
+        <li class="nav-item"><a class="nav-link" href="datetimemanip.php">Simple Date and Time Manipulation  </a></li>
+        <li class="nav-item"><a class="nav-link" href="function.php">Simple Functions</a></li>    
+    </ul>
     
-    <?php require 'include/footer.php'?>
+
+
