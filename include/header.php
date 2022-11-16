@@ -17,8 +17,8 @@
         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="array.php">Simple Array and Printout</a></li>
         <li class="nav-item"><a class="nav-link" href="forloop.php">Simple For Loop</a></li>
-        <li class="nav-item"><a class="nav-link"  href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
-        <li class="nav-item"><a class="nav-link" href="ifstatement.php">Simple If Statement</a></li>
+        <li class="nav-item"><a class="nav-link" href="whiledowhileloop.php">Simple While/Do While Loop</a></li>
+         <li class="nav-item"><a class="nav-link"href="ifstatement.php">Simple If Statement</a></li>
         <li class="nav-item"><a class="nav-link" href="switchstatement.php">Simple Switch Statement</a></li>
         <li class="nav-item"><a class="nav-link" href="stingmanip.php">Simple Sting Manipulation</a></li>
         <li class="nav-item"><a class="nav-link" href="datetimemanip.php">Simple Date and Time Manipulation  </a></li>
